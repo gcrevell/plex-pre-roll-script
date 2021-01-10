@@ -1,0 +1,26 @@
+{
+	"plexInstance": {
+		"url": "http://url:32400",
+		"token": "YOUR_TOKEN"
+	},
+	"useOverlappingGroups": true,
+	"groups": [
+		{
+			"startDate": "06-26",
+			"endDate": "Independence Day",
+			"path": "/path/to/pre_rolls/fourth_of_july"
+		},
+		{
+			"startDate": "11-01",
+			"endDate": "Thanksgiving",
+			"path": "/path/to/pre_rolls/thanksgiving"
+		},
+		{
+			"startDate": "Thanksgiving",
+			"startDateOffsetDays": 1,
+			"endDate": "New Year's Day",
+			"path": "/path/to/pre_rolls/thanksgiving"
+		}
+	],
+	"defaultPath": "/path/to/pre_rolls/default"
+}
